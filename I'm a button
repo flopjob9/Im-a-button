@@ -1,0 +1,17 @@
+# [flopjob9.github.button.io] (http://flopjob9.github.button.io/)
+<script>
+var button = $("#theButton");
+function buttonClicked(){
+button.css("color","red");
+button.css("background-color", "blue");
+button.on("click",buttonClicked);
+</script>
+<style>
+body{
+text-align:center;}
+#theButton{
+width:500px;
+height:125px;
+font-size:3em;}
+</style>
+<button id = "theButton"> I'm a button.</button>
